@@ -31,7 +31,6 @@ RUN curl -fsSL https://deb.nodesource.com/setup_22.x | bash - \
         vim \
         nano \
         ripgrep \
-    && npm install -g npm@latest \
     && pip3 install --break-system-packages uv \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
